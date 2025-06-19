@@ -164,6 +164,7 @@ function type() {
     const heroSubtitle = document.querySelector('.hero__subtitle')
     if(heroSubtitle){
         heroSubtitle.textContent = letter
+        heroSubtitle.style.textAlign = 'center' // Ensure centering via JS
     }
     
     if (letter.length === currentText.length) {
